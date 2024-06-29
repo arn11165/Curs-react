@@ -1,3 +1,6 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
 export const Square = ({children, isSelected, updateBoard, index}) => {
     const className = `square ${isSelected ? 'is-selected' : ''}`
   
@@ -14,3 +17,10 @@ export const Square = ({children, isSelected, updateBoard, index}) => {
     )
   
   }
+
+Square.propTypes = {
+  children: PropTypes.node.isRequired,
+  isSelected: PropTypes.bool.isRequired,
+  updateBoard: PropTypes.func.isRequired,
+  index: PropTypes.number.isRequired
+};

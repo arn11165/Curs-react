@@ -60,7 +60,6 @@ function App() {
 
   return (
     <main className="board">
-      <h1>tonto el que lo lea</h1>
       <h1>Tic Tac Toe</h1>
       <button onClick={resetGame}>Reset</button>
 
