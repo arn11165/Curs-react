@@ -1,0 +1,33 @@
+:root{
+    --primary-color: #393939;
+    --secondary-color: #606060;
+    --font-family: system-ui, sans-serif;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family);
+    
+}
+
+div#app {
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contDiv {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+
+
