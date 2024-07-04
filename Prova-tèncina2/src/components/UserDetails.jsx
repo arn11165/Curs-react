@@ -20,7 +20,7 @@ export function UserDetails({ user, isOpen, onRequestClose }) {
         }
       }}
     >
-      <button onClick={onRequestClose}>Close</button>
+      <i class="fa-solid fa-x" onClick={onRequestClose}></i>
       <div>
         <h2>{user.name}</h2>
         <p>Email: {user.email}</p>

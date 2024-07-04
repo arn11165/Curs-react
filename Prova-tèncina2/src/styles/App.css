@@ -30,4 +30,13 @@ div#app {
 }
 
 
+.ReactModal__Overlay.ReactModal__Overlay--after-open{
+    background-color: rgba(57, 57, 57, 0.8) !important;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open{
+    background-color: rgb(105, 105, 105) !important;
+    border: none !important;
+}
+
 
