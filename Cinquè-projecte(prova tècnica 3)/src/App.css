@@ -1,0 +1,39 @@
+main{
+    display: flex;;
+    justify-content: center;
+    width: 100%;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.movies{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 32px;
+    list-style: none;
+}
+
+.movie{
+    text-align: center;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 0px 0px;
+}
+
+.sort{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
